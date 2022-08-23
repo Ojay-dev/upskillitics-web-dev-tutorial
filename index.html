@@ -5,15 +5,30 @@
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Document</title>
-
+  <title>Game Reserve - Landing page</title>
+  <link rel="icon" href="/images/icon.png">
 
   <link rel="stylesheet" href="/style.css">
+
+  <style>
+    /* h1 {
+      color: red;
+    } */
+
+    /* #subtitle {
+      color: blue;
+    } */
+
+    .subtitle-class {
+      color: darkred;
+      font-size: 20px;
+    }
+  </style>
 
 </head>
 
 <body>
-  <h1>Yankari Game Reserve</h1>
+  <h1 style="color: militarygreen;">Yankari Game Reserve</h1>
   <p title="This is a paragraph"><strong>Lorem ipsum</strong>, dolor sit amet consectetur adipisicing elit. Maiores odio
     animi illum veritatis.
     Similique fuga,architecto distinctio neque consectetur earum harum voluptatem? Laudantium at nesciunt animi maiores
@@ -35,7 +50,7 @@
   <img src="/images/two-male-lions-Kenya-631.webp" alt="Image of Lions in pair" width="900"
     title="Image of Lions in pair">
 
-  <h2>The Experience</h2>
+  <h2 id="subtitle" style="color: gray;" class="subtitle-class">The Experience</h2>
   <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Id quasi error ducimus iusto eveniet, aperiam explicabo
     adipisci sunt culpa unde obcaecati recusandae labore laboriosam, sequi odit corrupti et omnis minus!
     Architecto placeat facere quo, corrupti aliquid doloremque tenetur eligendi officia. Repellat illum in culpa minima
@@ -64,9 +79,38 @@
     <li>Run in the wilds</li>
   </ul>
 
+  <table>
+    <!-- <td></td>
+    <th></th> -->
+
+    <tr>
+      <th>Tour Guide</th>
+      <th>Email Address</th>
+    </tr>
+
+    <tr>
+      <td>Mr. Vusi</td>
+      <td>vusi@gmail.com</td>
+    </tr>
+
+    <tr>
+      <td>Mr. Badmos</td>
+      <td>badmos@gmail.com</td>
+    </tr>
+    <tr></tr>
+
+  </table>
+
+  <!-- This link tag embedded inside a paragraph that takes us to the main website -->
   <p><a href="https://www.malamala.com/">Visit our main website to know more</a></p>
 
 
 </body>
 
 </html>
+
+
+
+
+<!-- inline style -> internal style -> external style
+              #IDS -> .class name -> element name -->

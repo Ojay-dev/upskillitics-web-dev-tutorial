@@ -1,8 +1,12 @@
 h1,
 h2,
 h3 {
-  color: brown;
+  color: #f2cc8f;
 }
+
+/* #subtitle {
+  color: cyan;
+} */
 
 p {
   font-size: 20px;
